@@ -1,0 +1,32 @@
+.UserList {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(90deg, #fd8355 0%, #f0576c 37%, #f79cbd 100%);
+}
+
+.UserList h1 {
+    color: #fff;
+}
+
+.UserList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.UserList li {
+    margin-bottom: 10px;
+}
+
+.UserList ul li a {
+    text-decoration: none;
+    color: #fff
+}
+
+.UserList ul li a:hover {
+    color: #363f54;
+}
+
